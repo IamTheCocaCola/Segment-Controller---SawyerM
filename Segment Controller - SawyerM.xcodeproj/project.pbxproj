@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47A37C7E29A91FD5007B91C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A37C7D29A91FD5007B91C7 /* AppDelegate.swift */; };
+		47A37C8029A91FD5007B91C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A37C7F29A91FD5007B91C7 /* SceneDelegate.swift */; };
+		47A37C8229A91FD5007B91C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A37C8129A91FD5007B91C7 /* ViewController.swift */; };
+		47A37C8529A91FD5007B91C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47A37C8329A91FD5007B91C7 /* Main.storyboard */; };
+		47A37C8729A91FD7007B91C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47A37C8629A91FD7007B91C7 /* Assets.xcassets */; };
+		47A37C8A29A91FD7007B91C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47A37C8829A91FD7007B91C7 /* LaunchScreen.storyboard */; };
+		47A37C9529A91FD8007B91C7 /* Segment_Controller___SawyerMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A37C9429A91FD8007B91C7 /* Segment_Controller___SawyerMTests.swift */; };
+		47A37C9F29A91FD8007B91C7 /* Segment_Controller___SawyerMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A37C9E29A91FD8007B91C7 /* Segment_Controller___SawyerMUITests.swift */; };
+		47A37CA129A91FD8007B91C7 /* Segment_Controller___SawyerMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A37CA029A91FD8007B91C7 /* Segment_Controller___SawyerMUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47A37C9129A91FD8007B91C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47A37C7229A91FD5007B91C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47A37C7929A91FD5007B91C7;
+			remoteInfo = "Segment Controller - SawyerM";
+		};
+		47A37C9B29A91FD8007B91C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47A37C7229A91FD5007B91C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47A37C7929A91FD5007B91C7;
+			remoteInfo = "Segment Controller - SawyerM";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47A37C7A29A91FD5007B91C7 /* Segment Controller - SawyerM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Segment Controller - SawyerM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47A37C7D29A91FD5007B91C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47A37C7F29A91FD5007B91C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		47A37C8129A91FD5007B91C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47A37C8429A91FD5007B91C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47A37C8629A91FD7007B91C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47A37C8929A91FD7007B91C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47A37C8B29A91FD7007B91C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47A37C9029A91FD8007B91C7 /* Segment Controller - SawyerMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Segment Controller - SawyerMTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47A37C9429A91FD8007B91C7 /* Segment_Controller___SawyerMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Segment_Controller___SawyerMTests.swift"; sourceTree = "<group>"; };
+		47A37C9A29A91FD8007B91C7 /* Segment Controller - SawyerMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Segment Controller - SawyerMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47A37C9E29A91FD8007B91C7 /* Segment_Controller___SawyerMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Segment_Controller___SawyerMUITests.swift"; sourceTree = "<group>"; };
+		47A37CA029A91FD8007B91C7 /* Segment_Controller___SawyerMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Segment_Controller___SawyerMUITestsLaunchTests.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47A37C7729A91FD5007B91C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47A37C8D29A91FD8007B91C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47A37C9729A91FD8007B91C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47A37C7129A91FD5007B91C7 = {
+			isa = PBXGroup;
+			children = (
+				47A37C7C29A91FD5007B91C7 /* Segment Controller - SawyerM */,
+				47A37C9329A91FD8007B91C7 /* Segment Controller - SawyerMTests */,
+				47A37C9D29A91FD8007B91C7 /* Segment Controller - SawyerMUITests */,
+				47A37C7B29A91FD5007B91C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47A37C7B29A91FD5007B91C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47A37C7A29A91FD5007B91C7 /* Segment Controller - SawyerM.app */,
+				47A37C9029A91FD8007B91C7 /* Segment Controller - SawyerMTests.xctest */,
+				47A37C9A29A91FD8007B91C7 /* Segment Controller - SawyerMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47A37C7C29A91FD5007B91C7 /* Segment Controller - SawyerM */ = {
+			isa = PBXGroup;
+			children = (
+				47A37C7D29A91FD5007B91C7 /* AppDelegate.swift */,
+				47A37C7F29A91FD5007B91C7 /* SceneDelegate.swift */,
+				47A37C8129A91FD5007B91C7 /* ViewController.swift */,
+				47A37C8329A91FD5007B91C7 /* Main.storyboard */,
+				47A37C8629A91FD7007B91C7 /* Assets.xcassets */,
+				47A37C8829A91FD7007B91C7 /* LaunchScreen.storyboard */,
+				47A37C8B29A91FD7007B91C7 /* Info.plist */,
+			);
+			path = "Segment Controller - SawyerM";
+			sourceTree = "<group>";
+		};
+		47A37C9329A91FD8007B91C7 /* Segment Controller - SawyerMTests */ = {
+			isa = PBXGroup;
+			children = (
+				47A37C9429A91FD8007B91C7 /* Segment_Controller___SawyerMTests.swift */,
+			);
+			path = "Segment Controller - SawyerMTests";
+			sourceTree = "<group>";
+		};
+		47A37C9D29A91FD8007B91C7 /* Segment Controller - SawyerMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47A37C9E29A91FD8007B91C7 /* Segment_Controller___SawyerMUITests.swift */,
+				47A37CA029A91FD8007B91C7 /* Segment_Controller___SawyerMUITestsLaunchTests.swift */,
+			);
+			path = "Segment Controller - SawyerMUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47A37C7929A91FD5007B91C7 /* Segment Controller - SawyerM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47A37CA429A91FD8007B91C7 /* Build configuration list for PBXNativeTarget "Segment Controller - SawyerM" */;
+			buildPhases = (
+				47A37C7629A91FD5007B91C7 /* Sources */,
+				47A37C7729A91FD5007B91C7 /* Frameworks */,
+				47A37C7829A91FD5007B91C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Segment Controller - SawyerM";
+			productName = "Segment Controller - SawyerM";
+			productReference = 47A37C7A29A91FD5007B91C7 /* Segment Controller - SawyerM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47A37C8F29A91FD8007B91C7 /* Segment Controller - SawyerMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47A37CA729A91FD8007B91C7 /* Build configuration list for PBXNativeTarget "Segment Controller - SawyerMTests" */;
+			buildPhases = (
+				47A37C8C29A91FD8007B91C7 /* Sources */,
+				47A37C8D29A91FD8007B91C7 /* Frameworks */,
+				47A37C8E29A91FD8007B91C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47A37C9229A91FD8007B91C7 /* PBXTargetDependency */,
+			);
+			name = "Segment Controller - SawyerMTests";
+			productName = "Segment Controller - SawyerMTests";
+			productReference = 47A37C9029A91FD8007B91C7 /* Segment Controller - SawyerMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47A37C9929A91FD8007B91C7 /* Segment Controller - SawyerMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47A37CAA29A91FD8007B91C7 /* Build configuration list for PBXNativeTarget "Segment Controller - SawyerMUITests" */;
+			buildPhases = (
+				47A37C9629A91FD8007B91C7 /* Sources */,
+				47A37C9729A91FD8007B91C7 /* Frameworks */,
+				47A37C9829A91FD8007B91C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47A37C9C29A91FD8007B91C7 /* PBXTargetDependency */,
+			);
+			name = "Segment Controller - SawyerMUITests";
+			productName = "Segment Controller - SawyerMUITests";
+			productReference = 47A37C9A29A91FD8007B91C7 /* Segment Controller - SawyerMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47A37C7229A91FD5007B91C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					47A37C7929A91FD5007B91C7 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					47A37C8F29A91FD8007B91C7 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 47A37C7929A91FD5007B91C7;
+					};
+					47A37C9929A91FD8007B91C7 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 47A37C7929A91FD5007B91C7;
+					};
+				};
+			};
+			buildConfigurationList = 47A37C7529A91FD5007B91C7 /* Build configuration list for PBXProject "Segment Controller - SawyerM" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47A37C7129A91FD5007B91C7;
+			productRefGroup = 47A37C7B29A91FD5007B91C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47A37C7929A91FD5007B91C7 /* Segment Controller - SawyerM */,
+				47A37C8F29A91FD8007B91C7 /* Segment Controller - SawyerMTests */,
+				47A37C9929A91FD8007B91C7 /* Segment Controller - SawyerMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47A37C7829A91FD5007B91C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A37C8A29A91FD7007B91C7 /* LaunchScreen.storyboard in Resources */,
+				47A37C8729A91FD7007B91C7 /* Assets.xcassets in Resources */,
+				47A37C8529A91FD5007B91C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47A37C8E29A91FD8007B91C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47A37C9829A91FD8007B91C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47A37C7629A91FD5007B91C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A37C8229A91FD5007B91C7 /* ViewController.swift in Sources */,
+				47A37C7E29A91FD5007B91C7 /* AppDelegate.swift in Sources */,
+				47A37C8029A91FD5007B91C7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47A37C8C29A91FD8007B91C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A37C9529A91FD8007B91C7 /* Segment_Controller___SawyerMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47A37C9629A91FD8007B91C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A37C9F29A91FD8007B91C7 /* Segment_Controller___SawyerMUITests.swift in Sources */,
+				47A37CA129A91FD8007B91C7 /* Segment_Controller___SawyerMUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47A37C9229A91FD8007B91C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47A37C7929A91FD5007B91C7 /* Segment Controller - SawyerM */;
+			targetProxy = 47A37C9129A91FD8007B91C7 /* PBXContainerItemProxy */;
+		};
+		47A37C9C29A91FD8007B91C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47A37C7929A91FD5007B91C7 /* Segment Controller - SawyerM */;
+			targetProxy = 47A37C9B29A91FD8007B91C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47A37C8329A91FD5007B91C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47A37C8429A91FD5007B91C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47A37C8829A91FD7007B91C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47A37C8929A91FD7007B91C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47A37CA229A91FD8007B91C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47A37CA329A91FD8007B91C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47A37CA529A91FD8007B91C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52L22D87AW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Segment Controller - SawyerM/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PickerViewSM.Segment-Controller---SawyerM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47A37CA629A91FD8007B91C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52L22D87AW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Segment Controller - SawyerM/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PickerViewSM.Segment-Controller---SawyerM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		47A37CA829A91FD8007B91C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52L22D87AW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PickerViewSM.Segment-Controller---SawyerMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Segment Controller - SawyerM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Segment Controller - SawyerM";
+			};
+			name = Debug;
+		};
+		47A37CA929A91FD8007B91C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52L22D87AW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PickerViewSM.Segment-Controller---SawyerMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Segment Controller - SawyerM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Segment Controller - SawyerM";
+			};
+			name = Release;
+		};
+		47A37CAB29A91FD8007B91C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52L22D87AW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PickerViewSM.Segment-Controller---SawyerMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Segment Controller - SawyerM";
+			};
+			name = Debug;
+		};
+		47A37CAC29A91FD8007B91C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52L22D87AW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PickerViewSM.Segment-Controller---SawyerMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Segment Controller - SawyerM";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47A37C7529A91FD5007B91C7 /* Build configuration list for PBXProject "Segment Controller - SawyerM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47A37CA229A91FD8007B91C7 /* Debug */,
+				47A37CA329A91FD8007B91C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47A37CA429A91FD8007B91C7 /* Build configuration list for PBXNativeTarget "Segment Controller - SawyerM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47A37CA529A91FD8007B91C7 /* Debug */,
+				47A37CA629A91FD8007B91C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47A37CA729A91FD8007B91C7 /* Build configuration list for PBXNativeTarget "Segment Controller - SawyerMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47A37CA829A91FD8007B91C7 /* Debug */,
+				47A37CA929A91FD8007B91C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47A37CAA29A91FD8007B91C7 /* Build configuration list for PBXNativeTarget "Segment Controller - SawyerMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47A37CAB29A91FD8007B91C7 /* Debug */,
+				47A37CAC29A91FD8007B91C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47A37C7229A91FD5007B91C7 /* Project object */;
+}
